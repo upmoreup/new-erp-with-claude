@@ -12,7 +12,16 @@
       "Bash(git remote *)",
       "Bash(git branch *)",
       "Bash(git config *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(npm cache *)",
+      "Bash(sudo chown *)",
+      "Bash(npm list *)",
+      "Bash(npm -v)",
+      "Bash(npm ci *)",
+      "Bash(npm config *)",
+      "Bash(npm test *)",
+      "Bash(npx vitest *)",
+      "Bash(npm run *)"
     ]
   }
 }
