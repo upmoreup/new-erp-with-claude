@@ -18,16 +18,33 @@ npm run test:ui      # UI 대시보드로 테스트 보기
 
 ## 테스트 파일 구조
 
-테스트 파일은 컴포넌트 파일 옆에 같은 이름으로 `.test.tsx` 확장자로 생성합니다.
+테스트 파일은 `src/test/` 아래에 카테고리별로 정리합니다. 소스 폴더 구조를 따라 `unit/` 또는 `integration/` 아래에 배치합니다.
 
 ```
 src/
   components/
     common/
       Button.tsx
-      Button.test.tsx  ← 테스트 파일
       Input.tsx
-      Input.test.tsx   ← 테스트 파일
+  hooks/
+  services/
+  utils/
+
+src/test/
+  setup.ts
+  unit/
+    components/
+      common/
+        Button.test.tsx    ← 단위 테스트
+        Input.test.tsx     ← 단위 테스트
+    hooks/
+    services/
+    utils/
+  integration/
+    components/
+      common/
+    hooks/
+    services/
 ```
 
 ## 테스트 작성 방법
@@ -306,7 +323,7 @@ it('조건에 따라 다른 요소를 표시해야 한다', () => {
 
 ## 현재 프로젝트의 테스트
 
-- ✅ Button.test.tsx - 7개 테스트
-- ✅ Input.test.tsx - 9개 테스트
+- ✅ src/test/unit/components/common/Button.test.tsx - 7개 테스트
+- ✅ src/test/unit/components/common/Input.test.tsx - 9개 테스트
 
 모두 통과 상태입니다!
