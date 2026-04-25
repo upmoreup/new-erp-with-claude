@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { describe, it, expect, vi } from 'vitest'
-import { Button } from './Button'
+import { Button } from '@/components/common/Button'
 
 describe('Button', () => {
   it('버튼이 렌더링되어야 한다', () => {

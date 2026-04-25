@@ -22,7 +22,14 @@
       "Bash(npm test *)",
       "Bash(npx vitest *)",
       "Bash(npm run *)",
-      "Bash(grep -E \"\\\\.\\(md|MD\\)$\")"
+      "Bash(grep -E \"\\\\.\\(md|MD\\)$\")",
+      "Bash(mkdir -p /Users/jieunmoon/Desktop/PROJECT/new-erp/src/test/unit/components/common)",
+      "Bash(mv /Users/jieunmoon/Desktop/PROJECT/new-erp/src/components/common/Button.test.tsx /Users/jieunmoon/Desktop/PROJECT/new-erp/src/test/unit/components/common/)",
+      "Bash(mv /Users/jieunmoon/Desktop/PROJECT/new-erp/src/components/common/Input.test.tsx /Users/jieunmoon/Desktop/PROJECT/new-erp/src/test/unit/components/common/)",
+      "Bash(git checkout *)",
+      "Bash(git commit -m 'chore\\(docs\\): 개발 가이드 문서 작성 *)",
+      "Bash(git rm *)",
+      "Bash(git commit -m 'chore\\(test\\): 테스트 파일 구조 정리 *)"
     ]
   }
 }

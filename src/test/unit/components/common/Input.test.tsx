@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { describe, it, expect } from 'vitest'
-import { Input } from './Input'
+import { Input } from '@/components/common/Input'
 
 describe('Input', () => {
   it('입력 필드가 렌더링되어야 한다', () => {
