@@ -1,0 +1,31 @@
+{
+  "app": {
+    "title": "새로운 ERP",
+    "welcome": "새로운 ERP에 오신 것을 환영합니다",
+    "description": "React, TypeScript, Zustand로 구축한 현대적인 ERP 시스템입니다."
+  },
+  "login": {
+    "subtitle": "계정에 로그인",
+    "email": "이메일",
+    "password": "비밀번호",
+    "button": "로그인",
+    "loading": "로그인 중...",
+    "demo_info": "데모: 아무 이메일과 비밀번호로 로그인할 수 있습니다",
+    "errors": {
+      "required": "이메일과 비밀번호를 입력해주세요",
+      "invalid_email": "유효한 이메일을 입력해주세요",
+      "login_failed": "로그인 실패. 다시 시도해주세요."
+    }
+  },
+  "dashboard": {
+    "welcome": "반갑습니다, {{name}}님!",
+    "description": "오늘의 비즈니스 현황을 확인하세요.",
+    "logout": "로그아웃",
+    "card1_title": "매출",
+    "card1_desc": "매출 성과 및 지표를 추적하세요.",
+    "card2_title": "재고",
+    "card2_desc": "재고 및 재고 수준을 관리하세요.",
+    "card3_title": "보고서",
+    "card3_desc": "상세 보고서 및 분석을 확인하세요."
+  }
+}

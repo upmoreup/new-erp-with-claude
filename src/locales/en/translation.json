@@ -1,0 +1,31 @@
+{
+  "app": {
+    "title": "New ERP",
+    "welcome": "Welcome to New ERP",
+    "description": "A modern ERP system built with React, TypeScript, and Zustand."
+  },
+  "login": {
+    "subtitle": "Sign in to your account",
+    "email": "Email",
+    "password": "Password",
+    "button": "Sign In",
+    "loading": "Signing in...",
+    "demo_info": "Demo: Use any email and password to login",
+    "errors": {
+      "required": "Email and password are required",
+      "invalid_email": "Please enter a valid email",
+      "login_failed": "Login failed. Please try again."
+    }
+  },
+  "dashboard": {
+    "welcome": "Welcome back, {{name}}!",
+    "description": "Here's what's happening with your business today.",
+    "logout": "Logout",
+    "card1_title": "Sales",
+    "card1_desc": "Track your sales performance and metrics.",
+    "card2_title": "Inventory",
+    "card2_desc": "Manage your inventory and stock levels.",
+    "card3_title": "Reports",
+    "card3_desc": "View detailed reports and analytics."
+  }
+}
