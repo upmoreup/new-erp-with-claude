@@ -21,7 +21,8 @@
       "Bash(npm config *)",
       "Bash(npm test *)",
       "Bash(npx vitest *)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Bash(grep -E \"\\\\.\\(md|MD\\)$\")"
     ]
   }
 }
