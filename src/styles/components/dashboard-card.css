@@ -1,0 +1,23 @@
+.card {
+  background: var(--white);
+  padding: var(--spacing-xl);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  border-left: 4px solid var(--primary);
+  transition: all var(--transition-base);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.card h3 {
+  color: var(--dark);
+  margin-bottom: var(--spacing-md);
+}
+
+.card p {
+  color: var(--gray);
+  line-height: 1.6;
+}

@@ -6,6 +6,12 @@ import { useAuthStore } from '@store/authStore'
 import { useLanguageStore } from '@store/languageStore'
 import { Login } from '@pages/Login'
 import { Dashboard } from '@pages/Dashboard'
+import { Products } from '@pages/Products'
+import { Orders } from '@pages/Orders'
+import { Customers } from '@pages/Customers'
+import { Reports } from '@pages/Reports'
+import { Settings } from '@pages/Settings'
+import { Layout } from '@components/Layout'
 
 /**
  * 인증된 사용자만 접근할 수 있는 보호된 라우트
@@ -39,13 +45,19 @@ function App() {
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route
-          path="/dashboard"
           element={
             <ProtectedRoute>
-              <Dashboard />
+              <Layout />
             </ProtectedRoute>
           }
-        />
+        >
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/orders" element={<Orders />} />
+          <Route path="/customers" element={<Customers />} />
+          <Route path="/reports" element={<Reports />} />
+          <Route path="/settings" element={<Settings />} />
+        </Route>
         <Route path="/" element={<Navigate to="/dashboard" replace />} />
         <Route path="*" element={<Navigate to="/dashboard" replace />} />
       </Routes>

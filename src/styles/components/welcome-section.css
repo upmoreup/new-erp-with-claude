@@ -1,0 +1,13 @@
+.welcome-section {
+  margin-bottom: var(--spacing-2xl);
+}
+
+.welcome-section h2 {
+  color: var(--dark);
+  margin-bottom: var(--spacing-sm);
+}
+
+.welcome-section p {
+  color: var(--gray);
+  font-size: var(--font-size-lg);
+}

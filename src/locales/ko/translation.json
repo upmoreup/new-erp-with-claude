@@ -27,5 +27,13 @@
     "card2_desc": "재고 및 재고 수준을 관리하세요.",
     "card3_title": "보고서",
     "card3_desc": "상세 보고서 및 분석을 확인하세요."
+  },
+  "sidebar": {
+    "dashboard": "대시보드",
+    "products": "상품",
+    "orders": "주문",
+    "customers": "고객",
+    "reports": "보고서",
+    "settings": "설정"
   }
 }

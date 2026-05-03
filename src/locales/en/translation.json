@@ -27,5 +27,13 @@
     "card2_desc": "Manage your inventory and stock levels.",
     "card3_title": "Reports",
     "card3_desc": "View detailed reports and analytics."
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "products": "Products",
+    "orders": "Orders",
+    "customers": "Customers",
+    "reports": "Reports",
+    "settings": "Settings"
   }
 }
